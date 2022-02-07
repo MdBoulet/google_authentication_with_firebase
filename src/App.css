@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+}
+
+.app {
+  display: grid;
+  height: 100vh;
+  justify-content: center;
+}
+
+.login {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.login > img {
+  border-radius: 50px;
+}
+
+.login > h3 {
+  font-weight: 500;
+  color: gray;
+}
+
+.btn {
+  margin-top: auto;
+  height: 50px;
+  margin-bottom: auto;
+}
+
+.btn > button > img {
+  height: 30px;
+}
+
+.btn > button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 20px;
+  cursor: pointer;
+}
