@@ -20,7 +20,7 @@ const App = () => {
         displayName: results.user.displayName,
         email: results.user.email,
         photo: results.user.photoURL
-      }))
+      }));
     }).catch((error) => {
       console.log(error);
     })
